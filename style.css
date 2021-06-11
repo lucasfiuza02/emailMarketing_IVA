@@ -1,0 +1,199 @@
+/* Reset and all */
+
+@font-face {
+    font-family: 'simplomBP-regular';
+    src: url(/fonts/simplonbp-regular-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simplomBP-medium';
+    src: url(/fonts/simplonbp-medium-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'simplomBP-bold';
+    src: url(/fonts/simplonbp-bold-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+input,
+button {
+  font-family: 'simplomBP-regular','simplomBP-medium','simplomBP-bold',Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    text-align: center;
+}
+
+body {
+    width: 600px;
+}
+
+
+/* Header */
+
+header {
+    width: 600px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.img__Head {
+    align-content: center;
+    padding: 22px;
+}
+
+.start__banner {
+    width: 600px;
+    height: 339px;
+    left: 0px;
+    top: 100px;
+}
+
+.start__h1 {
+    font-size: 32px;
+    margin-top: 32px;
+    font-family: 'simplomBP-medium';
+
+}
+
+.start__sub {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+
+/* Plano 200 mega */
+
+.plano200 {
+    background: #F4F4F4;
+    padding: 40px 70px;
+}
+
+.plano200__title {
+    font-size: 28px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano200__p1 {
+    font-size: 18px;
+    padding-top: 24px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano200__p2 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.plano200__p3 {
+    font-size: 18px;
+    padding-top: 24px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano200__p4 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.plano200__preco {
+    padding: 32px;
+    font-size: 30px;
+}
+
+.plano200__btn {
+    display: inline-block;
+    padding: 16px 80px;
+    color: #FFFFFF;
+    text-decoration: #FFFFFF;
+    background-color: #00BF3A;
+    border-radius: 4px;
+}
+
+
+/* Plano 400 Mega */
+
+.plano400 {
+    background: #f4f4f4;
+    padding: 40px 70px;
+}
+
+.plano400__title {
+    font-size: 28px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano400__p1 {
+    font-size: 18px;
+    padding-top: 24px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano400__p2 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.plano400__p3 {
+    font-size: 18px;
+    padding-top: 24px;
+    font-family: 'simplomBP-medium';
+}
+
+.plano400__p4 {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.plano400__preco {
+    padding: 32px;
+    font-size: 30px;
+}
+
+.plano400__btn {
+    display: inline-block;
+    padding: 16px 80px;
+    color: #000;
+    text-decoration: #FFFFFF;
+    background-color: #ffd700;
+    border-radius: 4px;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 40px 91px;
+}
+
+.text1_ft {
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.text2_ft {
+    font-size: 14px;
+    color: #C0C0C0C0;
+    padding-top: 16px;
+}
